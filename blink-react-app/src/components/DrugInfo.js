@@ -38,16 +38,25 @@ export const DrugInfo = () => {
 
 
 	return (
+	<div className="container">
 		<div className="drug-info-page">
-			{drugName}
-			{rxcui}
-			{synonym}
-			<div className="ndc-list">
-				<ul>
-					{getNdcList()}
-				</ul>
+			<div className="card">
+			  <div class="card-body">
+			  	<h5 class="card-title">{drugName}</h5>
+			    <h6 class="card-title">NAME: {drugName}</h6>
+			    <h6 class="card-subtitle mb-2 text-muted">SYNONYM: {synonym}</h6>
+			    <p class="card-text">RXCUI: {rxcui}</p>
+			  </div>
+			</div>
+
+			<div className="card" >
+			  <h5 class="card-title">NDC List:</h5>
+			  <ul class="list-group list-group-flush">
+			    {getNdcList()}
+			  </ul>
 			</div>
 		</div>
+	</div>
 	);
 }
 

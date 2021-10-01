@@ -38,8 +38,35 @@ body {
   margin-left: 15px;
 }
 
+.home-title {
+  font-size: 45px;
+  margin-top:  45px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.drug-info-page {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 .search-bar {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  margin-top: 10%;
+}
+
+.list-group {
+  margin-top:  25px;
+}
+
+.card {
+  margin-top:  25px;
+}
+
+ul {
+  list-style-type: none;
 }
