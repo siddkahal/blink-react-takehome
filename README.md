@@ -4,7 +4,7 @@ This simple application allows users to enter a drug name into the search box an
 
 The RxNorm API's (getDrugs, getSpellingSuggestions and getNDCs) were used to grab the appropriate drug information. 
 
-TODO: The suggestions list is being returned, but I am unable to display it for the results if the user entered a partial name. Somewhere along the re-render cycle the list is being cleared. Another possiblity is that the check for 'resultData' needs to be more fine-tuned. 
+TODO: The suggestions list is being returned, but I am unable to display it for the results if the user entered a partial name. Somewhere along the re-render cycle the list is being cleared. Another possiblity is that the check for 'resultData' needs to be more fine-tuned. If more time, I would've also added unit tests for the react components or methods. 
 
 ## Screenshots: ##
 
